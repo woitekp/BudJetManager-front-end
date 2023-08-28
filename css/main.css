@@ -1,12 +1,16 @@
-body
-{
+body {
 	margin: 0;
 	background-color: #A4D0A4;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
 }
 
-header
-{
+header {
     background-color: #F7E1AE;
+    margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+h1.logo {
+    font-color: #617A55
 }
