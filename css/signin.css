@@ -52,11 +52,3 @@ button {
   background-color: #71ca71 !important;
   border: 2px solid #71ca71 !important;
 }
-
-footer
-{
-  position: fixed;
-  bottom: 0px;
-  width:100%;
-  text-align: center;
-}
