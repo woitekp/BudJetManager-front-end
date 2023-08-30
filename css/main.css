@@ -1,3 +1,8 @@
+@font-face {
+    font-family: logoFont;
+    src: url(Boldenvandemo-K7dZZ.ttf);
+}
+
 body {
 	margin: 0;
 	background-color: #A4D0A4;
@@ -6,11 +11,14 @@ body {
 }
 
 header {
-    background-color: #F7E1AE;
-    margin-top: 50px;
+    background-color: #FFF8D6;
+    margin-top: 0px;
+    padding:20px;
 	margin-bottom: 40px;
+    text-align: center;
 }
 
 h1.logo {
-    font-color: #617A55
+    font-family: logoFont;
+    color: #617a55
 }
