@@ -15,7 +15,7 @@ body {
   justify-content: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #f5f5f5;
+  background-color: #F8FFF8;
 }
 
 .form-signin {
@@ -46,4 +46,17 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+button {
+  background-color: #71ca71 !important;
+  border: 2px solid #71ca71 !important;
+}
+
+footer
+{
+  position: fixed;
+  bottom: 0px;
+  width:100%;
+  text-align: center;
 }

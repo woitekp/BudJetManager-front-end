@@ -5,14 +5,12 @@
 
 body {
 	margin: 0;
-	background-color: #A4D0A4;
+	background-color: #F8FFF8;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
 }
 
 header {
-    background-color: #FFF8D6;
-    margin-top: 0px;
     padding:20px;
 	margin-bottom: 40px;
     text-align: center;
@@ -20,5 +18,13 @@ header {
 
 h1.logo {
     font-family: logoFont;
-    color: #617a55
+    color: #71ca71
+}
+
+footer
+{
+  position: fixed;
+  bottom: 0px;
+  width:100%;
+  text-align: center;
 }
