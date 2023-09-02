@@ -19,7 +19,32 @@ header {
 
 h1.logo {
     font-family: logoFont;
-    color: #71ca71
+    color: #71ca71;
+}
+
+.menu
+{
+    margin-top: 20px;
+    background-color: #f3eea6;
+	padding: 12px;
+	font-size: 1.6rem;
+}
+
+.menu > li
+{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menu a
+{
+	color: #71ca71;
+}
+
+.menu a:hover
+{
+	color: #299c29;
 }
 
 footer
