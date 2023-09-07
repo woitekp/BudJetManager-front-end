@@ -8,6 +8,10 @@ body {
   text-align: center;
 }
 
+h2 {
+  color: #299c29 !important;
+}
+
 .form-income {
   width: 100%;
   max-width: 330px;
@@ -52,21 +56,37 @@ body {
   border-top-right-radius: 0;
 }
 
-button {
-  background-color: #71ca71 !important;
-  border: 2px solid #71ca71 !important;
+.grid-container {
+  display: grid;
+  grid-template-areas: "button1 button2";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+
 }
 
-button:hover {
+button.confirm {
+  background-color: #71ca71 !important;
+  border: 2px solid #71ca71 !important;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: 3px;
+}
+
+button.confirm:hover {
   background-color: #299c29 !important;
   border: 2px solid #299c29 !important;
 }
 
-.registration-link {
-  color: #71ca71;
-  font-size: 1.4rem;
+button.cancel {
+  background-color: #de3e51 !important;
+  border: 2px solid #de3e51 !important;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: 3px;
 }
 
-.registration-link:hover {
-	color: #299c29;
+button.cancel:hover {
+  background-color: #d21414 !important;
+  border: 2px solid #d21414 !important;
 }
+
