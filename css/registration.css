@@ -20,7 +20,7 @@ body {
 .form-signin .form-control {
   position: relative;
   box-sizing: border-box;
-  height: auto;
+  height: 3rem;
   padding: 10px;
   font-size: 16px;
 }
@@ -31,18 +31,32 @@ body {
   box-shadow: none;
 }
 
-.form-signin input{
+#inputName {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#inputEmail {
   margin-bottom: -1px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#inputPassword {
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 #inputPasswordRepeated {
   margin-bottom: 10px;
-}
-
-input:focus {
-  
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 button {

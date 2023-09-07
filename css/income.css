@@ -14,13 +14,23 @@ body {
   padding: 15px;
   margin: 0 auto;
 }
+
 .form-income .checkbox {
   font-weight: 400;
 }
+
 .form-income .form-control {
   position: relative;
   box-sizing: border-box;
-  height: auto;
+  height: 3rem;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-income #inputCategory {
+  position: relative;
+  box-sizing: border-box;
+  height: 3rem;
   padding: 10px;
   font-size: 16px;
 }
@@ -31,12 +41,12 @@ body {
   box-shadow: none;
 }
 
-.form-income input[type="number"] {
+.form-income #inputAmount {
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.form-income input[type="password"] {
+.form-income #inputComment {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;

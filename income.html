@@ -36,8 +36,13 @@
     <label for="inputDate" class="sr-only">Date</label>
     <input type="text" id="inputDate" class="form-control" placeholder="Date (yyyy-mm-dd)" pattern="\d{4}-\d{2}-\d{2}" value="2023-09-06" required="">
 
-    <label for="inputCategory" class="sr-only">Salary</label>
-    <input type="radio" id="inputCategory" class="form-control" name="Salary" value="salary" required="">
+    <label for="inputCategory" class="sr-only">Category</label>
+    <select type="text" id="inputCategory" class="form-control" placeholder="Select category" required="">
+      <option>salary</option>
+      <option>bank interest</option>
+      <option>sale (ebay / allegro)</option>
+      <option>other</option>
+    </select>
 
     <label for="inputComment" class="sr-only">Date</label>
     <input type="text" id="inputComment" class="form-control" placeholder="notes (optional)" autofocus="">
