@@ -162,7 +162,7 @@ table > caption {
 }
 
 table {
-  border: 2px solid #71ca71;
+  border: 2px solid #299c29;
 }
 
 table, th {
@@ -176,9 +176,10 @@ table, th {
   background-color: #FFF8D6;
 }
 
+
 th {
   font-weight: normal;
-  border: 1px solid #71ca71;
+  border: 1px solid #299c29;
 }
 
 th.number {
@@ -190,7 +191,6 @@ th.number {
 }
 
 .row_even {
-  
   background-color: #FFF8D6;
 }
 
