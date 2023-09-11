@@ -7,34 +7,34 @@
 body {
 	margin: 0;
 	background-color: #F8FFF8;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
-    text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  text-align: center;
 }
 
 
 header {
-    padding: 20px;
-    margin-top: 0px;
-	margin-bottom: 20px;
+  padding: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 header .logo {
-    font-family: logoFont;
-    color: #71ca71;
+  font-family: logoFont;
+  color: #71ca71;
 }
 
 header .logo:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 
 .menu
 {
-    margin-top: 20px;
-    background-color: #f3eea6;
-	padding: 12px;
-	font-size: 1.6rem;
+  margin-top: 20px;
+  background-color: #f3eea6;
+  padding: 12px;
+  font-size: 1.6rem;
 }
 
 .menu > li
@@ -153,7 +153,46 @@ button.left {
 }
 
 
+table > caption {
+  caption-side: top;
+  color: black;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
 
+table {
+  border: 2px solid #71ca71;
+}
+
+table, th {
+  margin: auto;
+  padding: 10px;
+}
+
+#column_names > * {
+  font-weight: bold;
+  border: 2px solid #299c29;
+  background-color: #FFF8D6;
+}
+
+th {
+  font-weight: normal;
+  border: 1px solid #71ca71;
+}
+
+th.number {
+  font-weight: bold;
+}
+
+.row_odd {
+  background-color: #f3eea6;
+}
+
+.row_even {
+  
+  background-color: #FFF8D6;
+}
 
 
 footer
