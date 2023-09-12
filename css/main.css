@@ -4,19 +4,25 @@
 }
 
 
+html {
+  overflow-y: scroll;
+}
+
 body {
-	margin: 0;
+  /* flex with height: 100vh makes footer staying at the bottom of the page and not overlapping the page */
+  height: 100vh;
+  display: flex; 
+  flex-direction: column;
+
 	background-color: #F8FFF8;
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
   text-align: center;
-}
+  }
 
 
 header {
-  padding: 20px;
-  margin-top: 0px;
-  margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 header .logo {
@@ -195,9 +201,6 @@ th.number {
 }
 
 
-footer
-{
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
+footer {
+  margin-top: auto; /* auto with proper body settings (see body section)makes footer staying at the bottom of the page and not overlapping the page */
 }
