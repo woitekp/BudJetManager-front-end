@@ -29,7 +29,6 @@
 
   <main>
 
-
     <table>
 
       <caption>Incomes</caption>
@@ -45,12 +44,16 @@
         <th>6000</th>
       </tr>
       <tr class="row_even">
-        <th>ebay</th>
+        <th>Ebay</th>
         <th>100</th>
       </tr>
       <tr class="row_odd">
-        <th>bank interest</th>
+        <th>Bank interest</th>
         <th>20</th>
+      </tr>
+      <tr class="row_even summary">
+        <th>SUM</th>
+        <th>6120</th>
       </tr>
       <!-- example data -->
 
@@ -58,6 +61,48 @@
 
 
     <table>
+
+      <caption>Expenses</caption>
+
+      <tr id="column_names">
+        <th>Category</th>
+        <th>Amount</th>
+      </tr>
+
+      <!-- example data -->
+      <tr class="row_odd">
+        <th>Grocery</th>
+        <th>1000</th>
+      </tr>
+      <tr class="row_even">
+        <th>Rent</th>
+        <th>1000</th>
+      </tr>
+      <tr class="row_odd summary">
+        <th>SUM</th>
+        <th>2000</th>
+      </tr>
+      <!-- example data -->
+
+    </table>
+
+    <div class="chart">
+      <div class="pie_chart"></div>
+      <div class="legend">
+        <div class="legend_item">
+          <div class="item_color" id="item_1"></div>
+          <div class="item_text">Grocery</div>
+        </div>
+        <div class="legend_item">
+          <div class="item_color" id="item_2"></div>
+          <div class="item_text">Rent</div>
+        </div>
+      </div>
+
+    </div>
+    
+
+    <table style="margin-top: 50px;">
 
       <caption>Incomes details</caption>
 
@@ -81,14 +126,52 @@
         <th class="number">2</th>
         <th>21-08-2023</th>
         <th>100</th>
-        <th>ebay</th>
+        <th>Ebay</th>
         <th>old bike</th>
       </tr>
       <tr class="row_odd">
         <th class="number">1</th>
         <th>01-08-2023</th>
         <th>20</th>
-        <th>bank interest</th>
+        <th>Bank interest</th>
+        <th></th>
+      </tr>
+      <!-- example data -->
+
+    </table>
+
+    <table>
+
+      <caption>Expenses details</caption>
+
+      <tr id="column_names">
+        <th>#</th>
+        <th>Date</th>
+        <th>Amount</th>
+        <th>Category</th>
+        <th>Notes</th>
+      </tr>
+
+      <!-- example data -->
+      <tr class="row_odd">
+        <th class="number">3</th>
+        <th>31-08-2023</th>
+        <th>200</th>
+        <th>Grocery</th>
+        <th></th>
+      </tr>
+      <tr class="row_even">
+        <th class="number">2</th>
+        <th>21-08-2023</th>
+        <th>1000</th>
+        <th>Car Installment</th>
+        <th>10th installment</th>
+      </tr>
+      <tr class="row_odd">
+        <th class="number">1</th>
+        <th>01-08-2023</th>
+        <th>800</th>
+        <th>Grocery</th>
         <th></th>
       </tr>
       <!-- example data -->

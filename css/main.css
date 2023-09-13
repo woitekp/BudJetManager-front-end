@@ -168,6 +168,7 @@ table > caption {
 }
 
 table {
+  clear: both;
   border: 2px solid #299c29;
 }
 
@@ -192,6 +193,10 @@ th.number {
   font-weight: bold;
 }
 
+tr.summary > th {
+  font-weight: bold;
+}
+
 .row_odd {
   background-color: #f3eea6;
 }
@@ -201,6 +206,59 @@ th.number {
 }
 
 
+.chart {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.pie_chart {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: conic-gradient(rgb(48, 48, 233) 50% 0.55%,rgb(204, 78, 78) 50%);
+  margin-left: auto;
+}
+
+.legend {
+  height: 100px;
+  width: 100px;
+  background-color: #F8FFF8;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+.legend_item {
+  display: flex;
+  align-items: center;
+}
+
+.item_color {
+  margin-top: 15px;
+  margin-left: 5px;
+  height: 12px;
+  width: 10px;
+}
+
+.item_text {
+  margin-left: 5px;
+  height: 10px;
+  width: 10px;
+}
+
+#item_1 {
+  background-color: rgb(204, 78, 78);
+}
+
+#item_2 {
+  background-color: rgb(48, 48, 233);
+}
+
+
 footer {
+  padding: 10px;
   margin-top: auto; /* auto with proper body settings (see body section)makes footer staying at the bottom of the page and not overlapping the page */
 }
+
+
