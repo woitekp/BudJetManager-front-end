@@ -116,6 +116,10 @@ header .logo:hover {
   grid-template-columns: 1fr 1fr;
 }
 
+button {
+  box-shadow: none !important;
+}
+
 button.confirm {
   background-color: #71ca71 !important;
   border: 2px solid #71ca71 !important;
@@ -124,6 +128,7 @@ button.confirm {
 button.confirm:hover {
   background-color: #299c29 !important;
   border: 2px solid #299c29 !important;
+  
 }
 
 button.cancel {
