@@ -74,7 +74,7 @@ header .logo:hover {
 }
 
 .form-control,
-#inputCategory  {
+#inputCategory, {
   position: relative;
   box-sizing: border-box;
   height: 3rem;
@@ -164,6 +164,12 @@ button.left {
 }
 
 
+#SelectPeriod {
+  width: 200px;
+  margin: auto;
+}
+
+
 table > caption {
   caption-side: top;
   color: black;
@@ -221,7 +227,7 @@ tr.summary > th {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  background: conic-gradient(rgb(48, 48, 233) 50% 0.55%,rgb(204, 78, 78) 50%);
+  background: conic-gradient(rgb(48, 48, 233) 66% ,rgb(204, 78, 78) 33%);
   margin-left: auto;
 }
 

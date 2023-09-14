@@ -29,6 +29,17 @@
 
   <main>
 
+    <form class="form">
+      <label for="inputPeriod" class="sr-only">Period</label>
+      <select type="text" id="SelectPeriod" class="form-control form-middle-elem" placeholder="Select category" required="">
+        <option value="" selected>Select period</option>
+        <option>current month</option>
+        <option>previous month</option>
+        <option>current year</option>
+        <option>other</option>
+      </select>
+    </form>
+
     <table>
 
       <caption>Incomes</caption>
@@ -76,11 +87,11 @@
       </tr>
       <tr class="row_even">
         <th>Rent</th>
-        <th>1000</th>
+        <th>2000</th>
       </tr>
       <tr class="row_odd summary">
         <th>SUM</th>
-        <th>2000</th>
+        <th>3000</th>
       </tr>
       <!-- example data -->
 
@@ -98,7 +109,6 @@
           <div class="item_text">Rent</div>
         </div>
       </div>
-
     </div>
     
 
