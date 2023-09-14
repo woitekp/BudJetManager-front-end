@@ -73,15 +73,6 @@ header .logo:hover {
   margin: 0 auto;
 }
 
-.form-control,
-#inputCategory, {
-  position: relative;
-  box-sizing: border-box;
-  height: 3rem;
-  padding: 10px;
-  font-size: 16px;
-}
-
 .form .form-control:focus {
   z-index: 2;
   border: 1px solid #299c29;
@@ -89,13 +80,12 @@ header .logo:hover {
 }
 
 .form-top-elem {
-  margin-bottom: -1px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
 
+
 .form-middle-elem {
-  margin-bottom: -1px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-left-radius: 0;

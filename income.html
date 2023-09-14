@@ -13,7 +13,7 @@
   <header>
 
     <h1 >
-      <a href="index.html" class="logo ">BudJet Manager</a>
+      <a href="index.html" class="logo">BudJet Manager</a>
     </h1>
 
     <ul class="menu">
@@ -27,34 +27,35 @@
 
   </header>
 
-  <form class="form">
+  <main>
 
-    <label for="inputAmount" class="sr-only">Amount</label>
-    <input type="number" min ="0" step="0.01" id="inputAmount" class="form-control form-top-elem" placeholder="Amount" required="" autofocus="">
+    <form class="form">
 
-    <label for="inputDate" class="sr-only">Date</label>
-    <input type="text" id="inputDate" class="form-control form-middle-elem" placeholder="Date (yyyy-mm-dd)" pattern="\d{4}-\d{2}-\d{2}" value="2023-09-06" required="">
+      <label for="inputAmount" class="sr-only">Amount</label>
+      <input type="number" min ="0" step="0.01" id="inputAmount" class="form-control form-top-elem" placeholder="Amount" required="" autofocus="">
 
-    <label for="inputCategory" class="sr-only">Category</label>
-    <select type="text" id="inputCategory" class="form-control form-middle-elem" placeholder="Select category" required="">
-      <option value="" selected>Select category</option>
-      <option>salary</option>
-      <option>bank interest</option>
-      <option>sale (ebay / allegro)</option>
-      <option>other</option>
-    </select>
+      <label for="inputDate" class="sr-only">Date</label>
+      <input type="text" id="inputDate" class="form-control form-middle-elem" placeholder="Date (yyyy-mm-dd)" pattern="\d{4}-\d{2}-\d{2}" value="2023-09-06" required="">
 
-    <label for="inputComment" class="sr-only">Date</label>
-    <input type="text" id="inputComment" class="form-control form-bottom-elem" placeholder="Notes (optional)" autofocus="">
+      <label for="inputCategory" class="sr-only">Category</label>
+      <select type="text" id="inputCategory" class="form-control form-middle-elem" placeholder="Select category" required="">
+        <option value="" selected>Select category</option>
+        <option>salary</option>
+        <option>bank interest</option>
+        <option>sale (ebay / allegro)</option>
+        <option>other</option>
+      </select>
 
-    <div class="grid-container">
-      <button class="cancel left btn btn-lg btn-primary" type="submit">Cancel</button>
-      <button class="confirm right btn btn-lg btn-primary btn-info " type="submit">Add income</button>
-    </div>
+      <label for="inputComment" class="sr-only">Date</label>
+      <input type="text" id="inputComment" class="form-control form-bottom-elem" placeholder="Notes (optional)" autofocus="">
 
-    <hr>
+      <div class="grid-container">
+        <button class="cancel left btn btn-lg btn-primary" type="submit">Cancel</button>
+        <button class="confirm right btn btn-lg btn-primary btn-info " type="submit">Add income</button>
+      </div>
+    </form>
 
-  </form>
+  </main>
 
   <footer>
     <p class="text-muted">
